@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
+    "test": "jest",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -20,6 +21,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.4",
     "@types/node": "18.0.1",
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
@@ -32,6 +35,8 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.0",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "typescript": "4.7.4"
